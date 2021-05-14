@@ -89,9 +89,6 @@ class AddMovieForm extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  /*
-  investigate this ... spread syntax further
-  */
   handleChange(e) {
     const value = e.target.value;
     this.setState({
